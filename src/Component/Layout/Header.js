@@ -7,11 +7,11 @@ const Header = (props) => {
   <Fragment>
     <header className={classes.header}>
       <h1>ReactMeal</h1>
-      <HeaderCartButton />
+      <HeaderCartButton onClick={props.onShowcart}/>
     </header>
     <div className={classes["main-image"]}>
       <img
-        src="https://media.istockphoto.com/id/931308812/photo/selection-of-american-food.jpg?s=1024x1024&w=is&k=20&c=pjxPGorJvT5GjrDS3mcCJfOqXD9A9E0khQyebdycSQ8="
+        src="https://wallpapercave.com/wp/wp9443719.jpg"
         alt="A Table Full Of Delicious Food !"
       />
     </div>
